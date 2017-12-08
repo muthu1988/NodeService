@@ -1,0 +1,25 @@
+{
+  "name": "nodeservice",
+  "version": "1.0.0",
+  "description": "Node Service With Express Js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muthu1988/NodeService.git"
+  },
+  "author": "Muthu Kumaran A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muthu1988/NodeService/issues"
+  },
+  "homepage": "https://github.com/muthu1988/NodeService#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
