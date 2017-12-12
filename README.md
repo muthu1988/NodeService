@@ -1,3 +1,5 @@
 # NodeService
 
-REST Services with Express & Node Js
+REST Services with Express & Node Js.
+
+Handles CORS.
