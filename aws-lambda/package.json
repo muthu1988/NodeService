@@ -1,0 +1,9 @@
+{
+    "name": "test-lambda",
+    "version": "1.0.0",
+    "description": "Lambda to test go pipeline,
+    "main": "index.js",
+    "dependencies": {
+      "redis": "^2.8.0"
+    }
+  }
