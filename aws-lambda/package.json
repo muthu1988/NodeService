@@ -1,9 +1,13 @@
 {
-    "name": "test-lambda",
-    "version": "1.0.0",
-    "description": "Lambda to test go pipeline",
-    "main": "index.js",
-    "dependencies": {
-      "redis": "^2.8.0"
-    }
+  "name": "test-lambda",
+  "version": "1.0.0",
+  "description": "Lambda to test go pipeline",
+  "main": "index.js",
+  "script":{
+	"compress": "node compress.js"
   }
+  "dependencies": {
+    "bestzip": "^2.1.2",
+    "redis": "^2.8.0"
+  }
+}
