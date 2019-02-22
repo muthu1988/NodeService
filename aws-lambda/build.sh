@@ -1,4 +1,5 @@
 echo "hi from build"
 cd aws-lambda
+npm install -g bestzip
 npm install
-compact /c *
+node compress.js
