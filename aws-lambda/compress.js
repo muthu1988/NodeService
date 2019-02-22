@@ -1,8 +1,7 @@
 var zip = require('bestzip');
- 
 zip({
-  source: './aws-lambda/*',
-  destination: './build.zip'
+  source: '*',
+  destination: 'build.zip'
 }).then(function() {
   console.log('all done!');
 }).catch(function(err) {
