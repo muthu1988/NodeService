@@ -1,6 +1,6 @@
 var zip = require('bestzip');
 zip({
-  source: ['index.js','package.json','node_modules'],
+  source: ['final/index.js','final/package.json','final/node_modules'],
   destination: '../lambda.zip'
 }).then(function() {
   console.log('all done!');
