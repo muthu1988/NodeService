@@ -5,7 +5,7 @@
   "main": "index.js",
   "script":{
 	"compress": "node compress.js"
-  }
+  },
   "dependencies": {
     "bestzip": "^2.1.2",
     "redis": "^2.8.0"
